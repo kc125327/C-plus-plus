@@ -21,5 +21,6 @@ int main()
 	totalCoffeePrice = coffee * 1.20;
 	totalPrice = totalBagelPrice + totalDonutPrice + totalCoffeePrice;
 
+	std::cout << "Your total for the day is $" << totalPrice << std::endl;
 
 }
