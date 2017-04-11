@@ -22,7 +22,7 @@ int main()
 	if (sales < 10000)
 	{
 		bonus = sales * RATE;
-		std::cout << fixed << setprecision(3);
+		std::cout << std:: fixed << std::setprecision(2);
 		std::cout << "Bonus: $" << bonus << std::endl;
 	}
 	else
