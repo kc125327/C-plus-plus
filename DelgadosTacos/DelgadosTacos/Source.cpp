@@ -27,6 +27,21 @@ int main()
 		chipsOrdered, salsaOrdered, guacamoleOrdered;
 	double tacoTotal, burritoTotal, drinkTotal, quesadillaTotal, tostadoTotal, tamaleTotal,
 		empanadaTotal, chipsTotal, salsaTotal, guacamoleTotal;
+	std::cout << "..............................................................." << std::endl;
+	std::cout << ".                                                               ." << std::endl;
+	std::cout << ".  Salsa $0.50        |   Quacamole $0.50                         ." << std::endl;
+	std::cout << ".  Tacos $0.99		|	Tostada $1.20							  ." << std::endl;
+	std::cout << ".  Burritos $1.20     |   Tamale $2.50                                ." << std::endl;
+	std::cout << ".  Drink $0.50        |   Empanada $1.00                                 ." << std::endl;
+	std::cout << ".  Quesadilla $2.50   |   Chips $1.50                                     ................" << std::endl;
+	std::cout << ".                                                                                        ." << std::endl;
+	std::cout << ".                                                                                        ." << std::endl;
+	std::cout << ".                                                                                        ." << std::endl;
+	std::cout << ".                                                                                        ." << std::endl;
+	std::cout << ".                 . . . .                                . . . .                         ." << std::endl;
+	std::cout << ".                .        .                            .        .                        ." << std::endl;
+    std::cout << " .................          ............................          ........................." << std::endl;
+
 
 	// Welcoming sign 
 	std::cout << "Welcome to Delgado's Tacos" << std::endl;
