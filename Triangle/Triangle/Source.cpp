@@ -20,9 +20,9 @@ int main()
 			std::cin >> sideB;
 			std::cout << "Please enter for side C";
 			std::cin >> sideC;
-		\
-			//do math here
-			//Display answer here
+
+				sideA = sqrt((sideB*sideB) + (sideC*sideC));
+				std::cout << "Side a is " sideA << std::endl;
 		}
 		if (chooseSide == "B" || chooseSide == "b)
 		{
@@ -31,8 +31,10 @@ int main()
 
 			std::cout << "Enter side C";
 			std::cin >> sideC;
-			//do math here
-			//Display answer here
+		
+			sideB = sqrt((sideA*sideA) + (sideC*sideC));
+			std::cout << "Side B is " sideB << std::endl;
+			
 		}
 		if (chooseSide == "C" || chooseSide == "c")
 		{
@@ -41,6 +43,9 @@ int main()
 
 			std::cout << "Enter side A";
 			std::cin >> sideA;
+
+			sideC = sqrt((sideA*sideA) + (sideB*sideB));
+			std::cout << "Side C is " sideC << std::endl;
 
 		}
 	if (triangleChoice == "Isosceles" || triangleChoice == "isosceles")
@@ -54,9 +59,9 @@ int main()
 			std::cin >> sideB;
 			std::cout << "Please enter for side C";
 			std::cin >> sideC;
-			\
-				//do math here
-				//Display answer here
+			
+			sideA = sqrt((sideB*sideB) + (sideC*sideC));
+			std::cout << "Side a is " sideA << std::endl;
 		}
 		if (chooseSide == "B" || chooseSide == "b)
 		{
@@ -65,8 +70,10 @@ int main()
 
 			std::cout << "Enter side C";
 			std::cin >> sideC;
-			//do math here
-			//Display answer here
+
+			sideB = sqrt((sideA*sideA) + (sideC*sideC));
+			std::cout << "Side B is " sideB << std::endl;
+		
 		}
 		if (chooseSide == "C" || chooseSide == "c")
 		{
@@ -75,6 +82,9 @@ int main()
 
 			std::cout << "Enter side A";
 			std::cin >> sideA;
+
+			sideC = sqrt((sideA*sideA) + (sideB*sideB));
+			std::cout << "Side C is " sideC << std::endl;
 	}
 	if (triangleChoice == "Equilateral" || triangleChoice == "equilateral")
 	{
@@ -86,9 +96,10 @@ int main()
 			std::cin >> sideB;
 			std::cout << "Please enter for side C";
 			std::cin >> sideC;
-			\
-				//do math here
-				//Display answer here
+
+			sideA = sqrt((sideB*sideB) + (sideC*sideC));
+			std::cout << "Side a is " sideA << std::endl;
+		
 		}
 		if (chooseSide == "B" || chooseSide == "b)
 		{
@@ -97,8 +108,10 @@ int main()
 
 			std::cout << "Enter side C";
 			std::cin >> sideC;
-			//do math here
-			//Display answer here
+
+			sideB = sqrt((sideA*sideA) + (sideC*sideC));
+			std::cout << "Side B is " sideB << std::endl;
+		
 		}
 		if (chooseSide == "C" || chooseSide == "c")
 		{
@@ -107,5 +120,8 @@ int main()
 
 			std::cout << "Enter side A";
 			std::cin >> sideA;
+
+			sideC = sqrt((sideA*sideA) + (sideB*sideB));
+			std::cout << "Side C is " sideC << std::endl;
 	}
 }
