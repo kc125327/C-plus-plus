@@ -43,8 +43,6 @@ int main()
 			std::cin >> sideA;
 
 		}
-	
-
 	if (triangleChoice == "Isosceles" || triangleChoice == "isosceles")
 	{
 
@@ -77,11 +75,7 @@ int main()
 
 			std::cout << "Enter side A";
 			std::cin >> sideA;
-
-
 	}
-
-
 	if (triangleChoice == "Equilateral" || triangleChoice == "equilateral")
 	{
 		std::cout << "Please enter a side that you are trying to solve";
@@ -113,11 +107,5 @@ int main()
 
 			std::cout << "Enter side A";
 			std::cin >> sideA;
-
-
-
 	}
-
-
-
 }
