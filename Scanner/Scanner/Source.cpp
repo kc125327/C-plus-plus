@@ -3,13 +3,13 @@
 
 int main(){
 	unsigned long studentComputerNumber;
-
+	int done;
 	//scan computer
-	std::cout << "Please scan your computer";
-	std::cin >> studentComputerNumber;
+
 
 	do{
-
+		std::cout << "Please scan your computer";
+		std::cin >> studentComputerNumber;
 		switch (studentComputerNumber)
 		{
 		case 99732:
@@ -59,12 +59,12 @@ int main(){
 		default:
 			std::cout << "Invalid Computer";
 
-		}	std::cout << "Would you like to scan again?";
+		}
+		std::cout << "Would you like to scan again?";
 		std::cin >> done;
-
-		while (done == "yes");
-	}
-
-
-
-
+		
+	}while (done == 1);
+		
+		system("pause");
+		return 0;
+}
