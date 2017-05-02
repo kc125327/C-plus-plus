@@ -1,7 +1,13 @@
+//Mod
+//Kayla Clayton
 #include<iostream>
 #include<ctime>
 //#include<cstdlib>
 using namespace std;
+
+//function prototype 
+int getRandomNumber(int lower, int upper);
+
 
 int main()
 {
@@ -10,16 +16,26 @@ int main()
 		int num2 = 0;
 		int correctAnswer = 0;
 		int userAnswer = 0;
+		int smallest = 0;
+		int largest = 0;
+
 
 		//initialize rand function 
 		srand(static_cast<int>(time(0)));
+		cout << "Smallest integer: ";
+		cin >> smallest;
+		cout << "Largest Integer: ";;
+		cin >> largest;
+
+
+
 		for (int x = 1; x < 6; x += 1)
 		{
 			//generate two random integers
-			//from 1 through 10, then 
+			//from smallest  through largest , then 
 			//calculate the sum
-			num1 = 1 + rand() % (10 - 1 + 1);
-			num2 = 1 + rand() % (10 - 1 + 1);
+			num1 = getRandomNumber(smallest, largest );
+			num2 = getRandomNumber(smallest, largest );
 			correctAnswer = num1 + num2;
 
 			//display addition problem and get the user's answer
@@ -31,6 +47,17 @@ int main()
 				cout << " Correct!";
 
 			else cout << "Sorry, the correct answer is " << correctAnswer << ".";
+
+			//*****Function definitions****
+			int getRandomNumber(int lower, int upper)
+			{
+				int randInteger = 0;
+				//generate random integer from lower  through upper
+				randInteger = lower + rand() % (upper  - lower + 1);
+				return randInteger;
+				//end of getRandomNumber Function
+
+			}
 
 			// end if 
 			cout << endl << endl;
