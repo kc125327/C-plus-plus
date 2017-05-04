@@ -13,7 +13,7 @@ int main()
 	{
 		std::cout << "Enter the sales for region";
 		std::cout << sub + 1 << " : ";
-		std::cin >> sales[sub];;
+		std::cin >> sales[sub];
 
 		//end for 
 	}
